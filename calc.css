@@ -1,0 +1,12 @@
+.containter{
+    display:grid;
+    grid-template-columns: repeat(4, 100px);
+
+}
+.number{
+    /* grid-column:3; */
+}
+.operands {
+    grid-column-start: 4;
+    grid-row-start: 1;
+}
